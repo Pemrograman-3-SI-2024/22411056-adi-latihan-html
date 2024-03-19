@@ -1,0 +1,66 @@
+body{
+    background-color: aquamarine;
+    font-family:fantasy;
+    font-size: 12px;
+}
+.judul1{
+    color:black;
+}
+.my-btn{ background-color: rgb(10, 10, 210);
+    border: none;
+    /* atas, kanan, bawah,kiri */
+    padding: 0.7em 0.9em;
+border-radius: 20px;
+color: white;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;;
+cursor: pointer;
+
+}
+.outline-btn {
+    border: 1px solid rgb(62, 12, 212);
+    padding: 0.7em 0.9em;
+    border-radius: 20px;
+    background-color: aquamarine;
+    font-weight: bold;;
+    cursor: pointer;
+    color: rgb(3, 7, 76);
+
+}
+
+.outline-btn:hover{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+.my-table{
+    border: none;
+    
+    border-collapse: collapse;
+}
+
+.my-table tr:nth-child(even){
+    background-color: rgb(9, 178, 184);
+}
+.my-table td{
+    padding: 1em;
+}
+.my-table th{
+    background-color: rgb(7, 101, 108);
+    padding: 1em;
+    color: white;
+}
+
+.my-card{
+    width: 20em;
+    background-color: rgb(255, 255, 255);
+}
+
+.my-card .card-content{
+    padding: 1em 1em 0.1em 1em;
+}
+.my-card .card-content .card-title{
+    font-weight: bold;;
+color:blue;
+font-size: 14px;
+}
